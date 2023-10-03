@@ -1,0 +1,16 @@
+{
+  "name": "my-new-project",
+  "type": "module",
+  "devDependencies": {
+    "@types/jasmine": "^4.3.6",
+    "@wdio/cli": "^8.16.18",
+    "@wdio/jasmine-framework": "^8.16.18",
+    "@wdio/local-runner": "^8.16.18",
+    "@wdio/spec-reporter": "^8.16.17",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.ts"
+  }
+}
